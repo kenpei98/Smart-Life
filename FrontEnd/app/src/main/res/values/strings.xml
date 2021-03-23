@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SmartLife</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_me">Me</string>
+    <string-array name="gender">
+        <item>Choose your gender</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="accountType">
+        <item>Choose your account type</item>
+        <item>children</item>
+        <item>parent</item>
+    </string-array>
+</resources>

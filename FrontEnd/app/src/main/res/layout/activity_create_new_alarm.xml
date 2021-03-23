@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CreateNewAlarmActivity">
+
+    <RadioGroup
+        android:id="@+id/type_rb_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/type_rb_1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_orange"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Normal"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/type_rb_2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/selector_orange"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Shake"
+            android:textSize="20dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/type_rb_3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/selector_orange"
+            android:button="@null"
+            android:gravity="center"
+            android:text="other"
+            android:textSize="20dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/type_rb_4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/selector_orange"
+            android:button="@null"
+            android:gravity="center"
+            android:text="other"
+            android:textSize="20dp"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type_rb_group"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:text="Next" />
+</RelativeLayout>
